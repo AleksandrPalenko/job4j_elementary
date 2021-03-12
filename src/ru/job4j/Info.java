@@ -2,6 +2,11 @@ package ru.job4j;
 
 public class Info {
     public static void main(String[] args) {
-        System.out.println("12.03.2021");
+        int size = 10;
+        size = size +100;
+        size = size -5;
+        System.out.println(size);
     }
 }
+
+
