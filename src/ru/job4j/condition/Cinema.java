@@ -8,7 +8,6 @@ public class Cinema {
             System.out.println("It can't.");
         }
     }
-
     public static void main(String[] args) {
         permission(true, true);
         permission(true, false);
