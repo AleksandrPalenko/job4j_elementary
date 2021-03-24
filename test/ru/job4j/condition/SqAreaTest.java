@@ -11,7 +11,6 @@ public class SqAreaTest {
         double k = 2;
         double result = SqArea.square(6, 2);
         Assert.assertEquals(2, result, 0.01);
-
     }
 
     @Test
@@ -21,7 +20,6 @@ public class SqAreaTest {
         double k = 4;
         double result = SqArea.square(14, 4);
         Assert.assertEquals(4, result, 0.01);
-
     }
 
     @Test
