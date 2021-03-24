@@ -15,12 +15,12 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP14K3Square3() {
-        int expected = 3;
+    public void whenP14K4Square4() {
+        int expected = 4;
         int p = 14;
-        double k = 3;
-        double result = SqArea.square(14, 3);
-        Assert.assertEquals(3, result, 0.01);
+        double k = 4;
+        double result = SqArea.square(14, 4);
+        Assert.assertEquals(4, result, 0.01);
 
     }
 
