@@ -19,10 +19,10 @@ public class ChessBoardTest {
     public void wayIs6() {
         int x1 = 7;
         int y1 = 0;
-        int x2 = 1;
-        int y2 = 6;
+        int x2 = 2;
+        int y2 = 5;
         int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 6;
+        int expected = 5;
         Assert.assertEquals(expected, result);
     }
 
