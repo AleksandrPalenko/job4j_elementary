@@ -24,4 +24,15 @@ public class FindLoopTest {
         int expected = 3;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+
+    public void whenArrayHas4Then5() {
+        int[] data = {5, 4, 3, 2, 5};
+        int el = 3;
+        int result = FindLoop.indexOf(data, el);
+        int expected = 2;
+        Assert.assertEquals(expected, result);
+    }
+
 }
