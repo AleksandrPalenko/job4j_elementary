@@ -27,7 +27,7 @@ public class FindLoopTest {
 
     @Test
 
-    public void whenArrayHas4Then5() {
+    public void whenArrayHas3Then2() {
         int[] data = {5, 4, 3, 2, 5};
         int el = 3;
         int result = FindLoop.indexOf(data, el);
@@ -35,4 +35,13 @@ public class FindLoopTest {
         Assert.assertEquals(expected, result);
     }
 
+    @Test
+
+    public void whenArrayHas6ThenResult() {
+        int[] data = {5, 4, 3, 2, 5};
+        int el = 6;
+        int result = FindLoop.indexOf(data, el);
+        int expected = -1;
+        Assert.assertEquals(expected, result);
+    }
 }
