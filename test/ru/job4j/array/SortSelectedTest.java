@@ -25,9 +25,9 @@ public class SortSelectedTest {
 
     @Test
     public void whenSort3() {
-        int[] data = new int[]{5, 4, 6, 7};
+        int[] data = new int[]{5, 4, 6, 8, 7};
         int[] result = SortSelected.sort(data);
-        int[] expected = new int[]{4, 5, 6, 7};
+        int[] expected = new int[]{4, 5, 6, 7, 8};
         Assert.assertArrayEquals(expected, result);
     }
 }
