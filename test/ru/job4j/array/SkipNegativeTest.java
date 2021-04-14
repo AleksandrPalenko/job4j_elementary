@@ -19,7 +19,6 @@ public class SkipNegativeTest {
         };
         Assert.assertArrayEquals(expected, result);
     }
-
     @Test
     public void whenArrayRow4AndColumnNotEquals() {
         int[][] array = {
