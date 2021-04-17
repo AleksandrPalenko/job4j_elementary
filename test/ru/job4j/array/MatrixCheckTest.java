@@ -69,6 +69,7 @@ public class MatrixCheckTest {
             Assert.assertArrayEquals(expected, result);
         }
 
+
     @Test
     public void whenDataMonoByTrueThenTrue() {
         char[][] input = {
