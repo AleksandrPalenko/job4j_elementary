@@ -95,6 +95,7 @@ public class MatrixCheckTest {
         Assert.assertFalse(result);
     }
 
+
     @Test
     public void whenDataHMonoByTrueThenTrue() {
         char[][] input = {
