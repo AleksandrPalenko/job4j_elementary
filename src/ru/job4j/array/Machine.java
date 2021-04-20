@@ -9,7 +9,7 @@ public class Machine {
         int size = 0;
         int value = money - price;
         for (int i = 0; i < coins.length; i++) {
-            while (value > 0) {
+            while (value - coins[i] >= 0) {
                 value = value - coins[i];
                 rsl[size] = coins[i];
                 size++;
